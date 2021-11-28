@@ -124,7 +124,8 @@ def get_route(hostname):
                     #Fill in start
                     #cAddress = gethostbyaddr(hostname)
                     #print((addr[0])[2])
-                    print("Hostname is ", gethostbyaddr(addr[0])[2])
+                    print("Host IP is ", gethostbyaddr(addr[0])[2])
+                    print("Hostname is, ", hostname)
                     print(gethostbyname(hostname))
                     host = str(gethostbyaddr(addr[0])[0])
                     #print(getfqdn(host))  
